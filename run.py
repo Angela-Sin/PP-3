@@ -1,8 +1,11 @@
 
+#Play function
 def play():
-    print("You are Alice. You've fallen down a rabbit hole into the strange and magical world of Wonderland!")
-    print("Your goal is to find your way home, but first, you must explore this curious place and face its many challenges.")
-    print("Wish you Good Luck Alice!")
+    print("""You are Alice. You've fallen down a rabbit hole into the strange and magical
+    world of Wonderland!" Your goal is to find your way home, but first, you must explore
+    this curious place and face its many challenges.
+    
+    Wish you Good Luck Alice!""")
     print()
     print("Where would you like to go?")
     print()
@@ -19,7 +22,19 @@ def play():
     elif choice == "3":
         queen_castle()
 
+def rabbit_house():
+    print("\nYou follow the White Rabbit to his home, which is in a small hole. You land softly in a dimly lit tunnel filled with curious objects.")
 
+
+def tea_party():
+    print("\nYou arrive at the Mad Hatter's tea party and find yourself at a long table under a large tree, filled with teapots, cups and cakes.")
+
+
+def queen_castle():
+    print("\nYou enter the Queen of Hearts' castle. The air is tense, and the Queen herself is approaching! There is a large courtyard where the Queen of Hearts plays croquet with live flamingos and hedgehogs.")    
+
+
+#Welcome text
 print("""Welcome to the Magical World of Wonderland!
 
 Enter a world where the ordinary becomes extraordinary, and every turn is a new adventure! 
@@ -58,7 +73,8 @@ print("""    __
    ____,__/__,_____,______)/   /{~}}}
    -,------,----,-----,---,\'-' {{~}}
                             '-==.\}/""")
-
+print()
+#Start game function
 startGame = input('Would You like to play? (Y/N): ')
 if startGame == 'N' or startGame == "n":
     print("Next time")
