@@ -21,6 +21,9 @@ def play():
         tea_party()
     elif choice == "3":
         queen_castle()
+    else:
+        print("Invalid choice. Please choose again.")
+        play()
 
 def rabbit_house():
     print("\nYou follow the White Rabbit to his home, which is in a small hole. You land softly in a dimly lit tunnel filled with curious objects.")
