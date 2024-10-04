@@ -10,6 +10,15 @@ def play():
     print("2. Visit the Mad Hatter's Tea Party")
     print("3. Enter the Queen of Hearts' Castle")
 
+    choice = input("> ")
+
+    if choice == "1":
+        rabbit_house()
+    elif choice == "2":
+        tea_party()
+    elif choice == "3":
+        queen_castle()
+
 
 print("""Welcome to the Magical World of Wonderland!
 
