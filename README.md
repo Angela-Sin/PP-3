@@ -2,6 +2,8 @@
 
 Welcome Anzela Siniavskaja,
 
+BUG! At the beginning after the player presses N anyway shows the choice command, fixed - deleted code rewrite new one.
+
 This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
 
 ## Reminders
