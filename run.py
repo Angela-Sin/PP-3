@@ -13,7 +13,7 @@ def play():
     print("2. Visit the Mad Hatter's Tea Party")
     print("3. Enter the Queen of Hearts' Castle")
 
-    choice = input("> ")
+    choice = input("> ")#choice function
 
     if choice == "1":
         rabbit_house()
@@ -22,17 +22,20 @@ def play():
     elif choice == "3":
         queen_castle()
     else:
-        print("Invalid choice. Please choose again.")
+        print("Invalid choice. Please choose again.")#wont appear in terminal
         play()
 
+#Rabbit house
 def rabbit_house():
     print("\nYou follow the White Rabbit to his home, which is in a small hole. You land softly in a dimly lit tunnel filled with curious objects.")
 
 
+#Mad Hatter's tea party
 def tea_party():
     print("\nYou arrive at the Mad Hatter's tea party and find yourself at a long table under a large tree, filled with teapots, cups and cakes.")
 
 
+#Queen castle
 def queen_castle():
     print("\nYou enter the Queen of Hearts' castle. The air is tense, and the Queen herself is approaching! There is a large courtyard where the Queen of Hearts plays croquet with live flamingos and hedgehogs.")    
 
