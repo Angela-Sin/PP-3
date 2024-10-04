@@ -1,22 +1,26 @@
 
 def play():
-    print("text text text")
-    print("rules rules rules")
-    print("GOOD LUCK!")
+    print("You are Alice. You've fallen down a rabbit hole into the strange and magical world of Wonderland!")
+    print("Your goal is to find your way home, but first, you must explore this curious place and face its many challenges.")
+    print("Wish you Good Luck Alice!")
     print()
     print("Where would you like to go?")
     print()
-    print("1.")
-    print("2.")
-    print("3.")
+    print("1. Follow the White Rabbit")
+    print("2. Visit the Mad Hatter's Tea Party")
+    print("3. Enter the Queen of Hearts' Castle")
     
 
 
-print(""" ____ _____  _    ____ _____    ____    _    __  __ _____ 
-/ ___|_   _|/ \  |  _ \_   _|  / ___|  / \  |  \/  | ____|
-\___ \ | | / _ \ | |_) || |   | |  _  / _ \ | |\/| |  _|  
- ___) || |/ ___ \|  _ < | |   | |_| |/ ___ \| |  | | |___ 
-|____/ |_/_/   \_\_| \_\|_|    \____/_/   \_\_|  |_|_____|""")
+print("""     _    _ _            _                            
+   / \  | (_) ___ ___  (_)_ __                       
+  / _ \ | | |/ __/ _ \ | | '_ \                      
+ / ___ \| | | (_|  __/ | | | | |                     
+/_/   \_\_|_|\___\___| |_|_| |_| _                 _ 
+\ \      / /__  _ __   __| | ___| | __ _ _ __   __| |
+ \ \ /\ / / _ \| '_ \ / _` |/ _ \ |/ _` | '_ \ / _` |
+  \ V  V / (_) | | | | (_| |  __/ | (_| | | | | (_| |
+   \_/\_/ \___/|_| |_|\__,_|\___|_|\__,_|_| |_|\__,_|""")
 
 startGame = input('Would You like to play? (Y/N): ')
 if startGame == 'N':
